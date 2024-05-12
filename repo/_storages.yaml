@@ -1,0 +1,10 @@
+storages:
+  default:
+    type: s3
+    endpoint: https://nyc3.digitaloceanspaces.com
+    region: nyc3
+    bucket: BUCKET_NAME
+    credentials:
+      type: basic
+      accessKeyId: ACCESS_KEY
+      secretAccessKey: SECRET_KEY

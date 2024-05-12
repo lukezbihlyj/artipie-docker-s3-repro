@@ -1,0 +1,12 @@
+meta:
+  base_url: http://localhost:8080
+  storage:
+    type: fs
+    path: /var/artipie/repo
+  credentials:
+    - type: artipie
+  policy:
+    type: artipie
+    storage:
+      type: fs
+      path: /var/artipie/security

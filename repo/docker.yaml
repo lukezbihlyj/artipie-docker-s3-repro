@@ -1,0 +1,4 @@
+repo:
+  type: docker
+  port: 8083
+  storage: default
